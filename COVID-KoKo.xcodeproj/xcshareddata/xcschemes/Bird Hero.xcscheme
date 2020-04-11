@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A106080723C50B5F004E8A3A"
                BuildableName = "COVID-KoKo.app"
-               BlueprintName = "Bird Hero"
+               BlueprintName = "COVID-KoKo"
                ReferencedContainer = "container:COVID-KoKo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A106080723C50B5F004E8A3A"
             BuildableName = "COVID-KoKo.app"
-            BlueprintName = "Bird Hero"
+            BlueprintName = "COVID-KoKo"
             ReferencedContainer = "container:COVID-KoKo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A106080723C50B5F004E8A3A"
             BuildableName = "COVID-KoKo.app"
-            BlueprintName = "Bird Hero"
+            BlueprintName = "COVID-KoKo"
             ReferencedContainer = "container:COVID-KoKo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

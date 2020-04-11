@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A106080723C50B5F004E8A3A /* Bird Hero */ = {
+		A106080723C50B5F004E8A3A /* COVID-KoKo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "Bird Hero" */;
+			buildConfigurationList = A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "COVID-KoKo" */;
 			buildPhases = (
 				A106080423C50B5F004E8A3A /* Sources */,
 				A106080523C50B5F004E8A3A /* Frameworks */,
@@ -111,7 +111,7 @@
 			);
 			dependencies = (
 			);
-			name = "Bird Hero";
+			name = "COVID-KoKo";
 			productName = "Bird Hero";
 			productReference = A106080823C50B5F004E8A3A /* COVID-KoKo.app */;
 			productType = "com.apple.product-type.application";
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A106080723C50B5F004E8A3A /* Bird Hero */,
+				A106080723C50B5F004E8A3A /* COVID-KoKo */,
 			);
 		};
 /* End PBXProject section */
@@ -328,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Blago.Bird-Hero";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaGalkov.covidkoko;
 				PRODUCT_NAME = "COVID-KoKo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Blago.Bird-Hero";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaGalkov.covidkoko;
 				PRODUCT_NAME = "COVID-KoKo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "Bird Hero" */ = {
+		A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "COVID-KoKo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A106082123C50B62004E8A3A /* Debug */,
