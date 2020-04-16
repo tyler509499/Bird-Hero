@@ -19,8 +19,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundLaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="h7t-U4-dm7">
                                 <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID-KoKo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grt-hg-2h8">
-                                <rect key="frame" x="344.33333333333331" y="162.66666666666666" width="207.66666666666669" height="89"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr.KoKo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grt-hg-2h8">
+                                <rect key="frame" x="363" y="162.66666666666666" width="170" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="89" id="HH3-aT-eAd"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="ks6-OA-I7G"/>

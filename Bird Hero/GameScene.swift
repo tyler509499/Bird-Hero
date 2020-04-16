@@ -400,6 +400,36 @@ class GameScene: SKScene {
 }
 }
     
+    func fakeCoin() {
+        let fakecoin = SKSpriteNode(imageNamed: "coin2")
+        fakecoin.name = "coin2"
+        fakecoin.size = CGSize(width: 85, height: 85)
+        fakecoin.position = CGPoint(x: CGFloat.random(min: cameraRect.minX, max: cameraRect.maxX),
+                                y: CGFloat.random(min: cameraRect.minY , max: cameraRect.maxY))
+        fakecoin.zPosition = 50
+        fakecoin.setScale(0)
+        addChild(fakecoin)
+        
+        fakecoin.zRotation = -CGFloat.pi / 16.0
+        
+        let leftWiggle = SKAction.rotate(byAngle: CGFloat.pi / 8.0, duration: 0.5)
+        let rightWiggle = leftWiggle.reversed()
+        let fullWiggle = SKAction.sequence([leftWiggle, rightWiggle])
+        
+        let appear = SKAction.scale(to: 1.0, duration: 0.5)
+        let disappear = SKAction.scale(by: 0.0, duration: 0.5)
+        let removeFromParent = SKAction.removeFromParent()
+        
+        let scaleUp = SKAction.scale(by: 1.2, duration: 0.25)
+        let scaleDown = scaleUp.reversed()
+        let fullScale = SKAction.sequence([scaleUp, scaleDown, scaleUp, scaleDown])
+        let group = SKAction.group([fullScale, fullWiggle])
+        let groupWait = SKAction.repeat(group, count: 10)
+        
+        let actions = [appear, groupWait, disappear, removeFromParent]
+        fakecoin.run(SKAction.sequence(actions))
+    }
+    
     func loseCoins() {
         var loseCount = 0
         enumerateChildNodes(withName: "train") { (node, stop) in
