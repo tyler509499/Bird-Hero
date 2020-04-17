@@ -9,7 +9,10 @@
 import UIKit
 import SpriteKit
 
+let highscoreLabel = SKLabelNode(fontNamed: "Chalkduster")
+
 class GameOverScene: SKScene {
+    public var highscore = 0
     let won: Bool
     init(size: CGSize, won: Bool) {
         self.won = won
@@ -25,13 +28,23 @@ class GameOverScene: SKScene {
         if won {
             background = SKSpriteNode(imageNamed: "win")
         } else {
-            background = SKSpriteNode(imageNamed: "lose")
+            background = SKSpriteNode(imageNamed: "backgroundOverScene")
         }
         background.position = CGPoint(x: size.width / 2,
                                       y: size.height / 2)
         addChild(background)
         
-        let wait = SKAction.wait(forDuration: 4.0)
+        highscoreLabel.text = "Your Score: \(highscore)"
+        highscoreLabel.fontColor = SKColor.black
+        highscoreLabel.horizontalAlignmentMode = .right
+        highscoreLabel.verticalAlignmentMode = .bottom
+        highscoreLabel.fontSize = 85
+        highscoreLabel.zPosition = 150
+        highscoreLabel.position = CGPoint(x: size.width / 2,
+                   y: size.height / 4)
+        addChild(highscoreLabel)
+        
+        let wait = SKAction.wait(forDuration: 6.0)
         let block = SKAction.run {
             let myScene = GameScene(size: self.size)
             myScene.scaleMode = self.scaleMode

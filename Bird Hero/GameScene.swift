@@ -25,6 +25,7 @@ class GameScene: SKScene {
     var invicible = false
     let coinMovePointsPerSec: CGFloat = 480.0
     var lives = 3
+    var score = 0
     var gameOver = false
     let cameraNode = SKCameraNode()
     let cameraMovePointsPerSec: CGFloat = 200.0
@@ -35,9 +36,9 @@ class GameScene: SKScene {
     }
     let livesLabel = SKLabelNode(fontNamed: "Chalkduster")
     let coinsLabel = SKLabelNode(fontNamed: "Chalkduster")
+   
     let coinCollisionSound: SKAction = SKAction.playSoundFileNamed("coin.mp3", waitForCompletion: false)
     let covidCollisionSound = SKAction.playSoundFileNamed("hit.mp3", waitForCompletion: false)
-    
     
     override init(size: CGSize) {
         let maxAspectRatio: CGFloat = 19.5 / 9.0
@@ -155,19 +156,11 @@ class GameScene: SKScene {
         moveTrain()
         moveCamera()
         
-        if lives <= 0 && !gameOver {
-            gameOver = true
-            print("Вы проиграли")
-            let gameOverScene = GameOverScene(size: size, won: false)
-            gameOverScene.scaleMode = scaleMode
-            let reval = SKTransition.flipHorizontal(withDuration: 0.5)
-            view?.presentScene(gameOverScene, transition: reval)
-            
-            backgroundMusicPlayer.stop()
-        }
+       
         //moveCamera()
-        livesLabel.text = "Lives: \(lives)"
+        //livesLabel.text = "Lives: \(lives)"
     }
+    
     
     override func didEvaluateActions() {
         checkCollisions()
@@ -336,10 +329,12 @@ class GameScene: SKScene {
     }
 }
     func moveTrain() {
-        var trainCount = 0
+        
+        var score = 0
+        
         var targetPosition = bird.position
         enumerateChildNodes(withName: "train") { (node, stop) in
-            trainCount += 1
+            score += 1
             if !node.hasActions() {
                 let actionDuration = 0.3
                 let offset = targetPosition - node.position
@@ -350,19 +345,25 @@ class GameScene: SKScene {
                 node.run(moveAction)
             }
             targetPosition = node.position
-        }
-        if trainCount >= 30 && !gameOver {
-            gameOver = true
-            print("Вы выиграли!")
-            let gameOverScene = GameOverScene(size: size, won: true)
-            gameOverScene.scaleMode = scaleMode
-            let reval = SKTransition.flipHorizontal(withDuration: 0.5)
-            view?.presentScene(gameOverScene, transition: reval)
             
-            backgroundMusicPlayer.stop()
+            
         }
+           if lives <= 0 && !gameOver {
+           gameOver = true
+           print("Вы проиграли")
+           let gameOverScene = GameOverScene(size: size, won: false)
+           gameOverScene.highscore = score
+           gameOverScene.scaleMode = scaleMode
+           let reval = SKTransition.flipHorizontal(withDuration: 0.5)
+           view?.presentScene(gameOverScene, transition: reval)
+       
+           backgroundMusicPlayer.stop()
+       }
         //moveCamera()
-        coinsLabel.text = "Vaccine: \(trainCount)"
+         coinsLabel.text = "Vaccine: \(score)"
+         livesLabel.text = "Lives: \(lives)"
+        
+//        highscoreLabel.removeFromParent
     }
     
     func backgroundNode() -> SKSpriteNode {

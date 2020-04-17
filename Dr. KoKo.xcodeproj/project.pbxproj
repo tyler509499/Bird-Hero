@@ -15,15 +15,13 @@
 		A106081C23C50B62004E8A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A106081A23C50B62004E8A3A /* LaunchScreen.storyboard */; };
 		A12177F123C7558000589465 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12177F023C7558000589465 /* MyUtils.swift */; };
 		A12F22DC23EB40C200EA21F8 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F22DB23EB40C200EA21F8 /* GameOverScene.swift */; };
-		A166ABB52441E05B00D56B34 /* lose.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A166ABB02441E05B00D56B34 /* lose.ogg */; };
 		A166ABB62441E05B00D56B34 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A166ABB12441E05B00D56B34 /* coin.mp3 */; };
-		A166ABB72441E05B00D56B34 /* win.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A166ABB22441E05B00D56B34 /* win.ogg */; };
 		A166ABB82441E05B00D56B34 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A166ABB32441E05B00D56B34 /* hit.mp3 */; };
 		A166ABBB2441E70100D56B34 /* font.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A166ABBA2441E70100D56B34 /* font.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A106080823C50B5F004E8A3A /* COVID-KoKo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-KoKo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A106080823C50B5F004E8A3A /* Dr. KoKo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dr. KoKo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A106080B23C50B5F004E8A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A106081123C50B5F004E8A3A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A106081323C50B5F004E8A3A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -33,9 +31,7 @@
 		A106081D23C50B62004E8A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A12177F023C7558000589465 /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 		A12F22DB23EB40C200EA21F8 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
-		A166ABB02441E05B00D56B34 /* lose.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = lose.ogg; sourceTree = "<group>"; };
 		A166ABB12441E05B00D56B34 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
-		A166ABB22441E05B00D56B34 /* win.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = win.ogg; sourceTree = "<group>"; };
 		A166ABB32441E05B00D56B34 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
 		A166ABBA2441E70100D56B34 /* font.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = font.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +59,7 @@
 		A106080923C50B5F004E8A3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A106080823C50B5F004E8A3A /* COVID-KoKo.app */,
+				A106080823C50B5F004E8A3A /* Dr. KoKo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +83,7 @@
 		A166ABAF2441E05B00D56B34 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				A166ABB02441E05B00D56B34 /* lose.ogg */,
 				A166ABB12441E05B00D56B34 /* coin.mp3 */,
-				A166ABB22441E05B00D56B34 /* win.ogg */,
 				A166ABB32441E05B00D56B34 /* hit.mp3 */,
 				A166ABBA2441E70100D56B34 /* font.mp3 */,
 			);
@@ -99,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A106080723C50B5F004E8A3A /* COVID-KoKo */ = {
+		A106080723C50B5F004E8A3A /* Dr. KoKo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "COVID-KoKo" */;
+			buildConfigurationList = A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "Dr. KoKo" */;
 			buildPhases = (
 				A106080423C50B5F004E8A3A /* Sources */,
 				A106080523C50B5F004E8A3A /* Frameworks */,
@@ -111,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "COVID-KoKo";
+			name = "Dr. KoKo";
 			productName = "Bird Hero";
-			productReference = A106080823C50B5F004E8A3A /* COVID-KoKo.app */;
+			productReference = A106080823C50B5F004E8A3A /* Dr. KoKo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A106080323C50B5F004E8A3A /* Build configuration list for PBXProject "COVID-KoKo" */;
+			buildConfigurationList = A106080323C50B5F004E8A3A /* Build configuration list for PBXProject "Dr. KoKo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A106080723C50B5F004E8A3A /* COVID-KoKo */,
+				A106080723C50B5F004E8A3A /* Dr. KoKo */,
 			);
 		};
 /* End PBXProject section */
@@ -155,12 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A166ABB82441E05B00D56B34 /* hit.mp3 in Resources */,
-				A166ABB72441E05B00D56B34 /* win.ogg in Resources */,
 				A106081723C50B5F004E8A3A /* Main.storyboard in Resources */,
 				A166ABB62441E05B00D56B34 /* coin.mp3 in Resources */,
 				A106081923C50B62004E8A3A /* Assets.xcassets in Resources */,
 				A166ABBB2441E70100D56B34 /* font.mp3 in Resources */,
-				A166ABB52441E05B00D56B34 /* lose.ogg in Resources */,
 				A106081C23C50B62004E8A3A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = MV639N62L8;
 				INFOPLIST_FILE = "Bird Hero/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -329,9 +321,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaGalkov.covidkoko;
-				PRODUCT_NAME = "COVID-KoKo";
+				PRODUCT_NAME = "Dr. KoKo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = MV639N62L8;
 				INFOPLIST_FILE = "Bird Hero/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -350,9 +342,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaGalkov.covidkoko;
-				PRODUCT_NAME = "COVID-KoKo";
+				PRODUCT_NAME = "Dr. KoKo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -361,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A106080323C50B5F004E8A3A /* Build configuration list for PBXProject "COVID-KoKo" */ = {
+		A106080323C50B5F004E8A3A /* Build configuration list for PBXProject "Dr. KoKo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A106081E23C50B62004E8A3A /* Debug */,
@@ -370,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "COVID-KoKo" */ = {
+		A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "Dr. KoKo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A106082123C50B62004E8A3A /* Debug */,

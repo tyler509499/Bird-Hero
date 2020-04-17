@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A106080723C50B5F004E8A3A"
-               BuildableName = "COVID-KoKo.app"
-               BlueprintName = "COVID-KoKo"
-               ReferencedContainer = "container:COVID-KoKo.xcodeproj">
+               BuildableName = "Dr. KoKo.app"
+               BlueprintName = "Dr. KoKo"
+               ReferencedContainer = "container:Dr. KoKo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A106080723C50B5F004E8A3A"
-            BuildableName = "COVID-KoKo.app"
-            BlueprintName = "COVID-KoKo"
-            ReferencedContainer = "container:COVID-KoKo.xcodeproj">
+            BuildableName = "Dr. KoKo.app"
+            BlueprintName = "Dr. KoKo"
+            ReferencedContainer = "container:Dr. KoKo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A106080723C50B5F004E8A3A"
-            BuildableName = "COVID-KoKo.app"
-            BlueprintName = "COVID-KoKo"
-            ReferencedContainer = "container:COVID-KoKo.xcodeproj">
+            BuildableName = "Dr. KoKo.app"
+            BlueprintName = "Dr. KoKo"
+            ReferencedContainer = "container:Dr. KoKo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
