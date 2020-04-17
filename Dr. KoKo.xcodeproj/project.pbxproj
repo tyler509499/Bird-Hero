@@ -17,7 +17,7 @@
 		A12F22DC23EB40C200EA21F8 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F22DB23EB40C200EA21F8 /* GameOverScene.swift */; };
 		A166ABB62441E05B00D56B34 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A166ABB12441E05B00D56B34 /* coin.mp3 */; };
 		A166ABB82441E05B00D56B34 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A166ABB32441E05B00D56B34 /* hit.mp3 */; };
-		A166ABBB2441E70100D56B34 /* font.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A166ABBA2441E70100D56B34 /* font.mp3 */; };
+		A180B4C1244A0C8A006FEC21 /* font2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A180B4C0244A0C8A006FEC21 /* font2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		A12F22DB23EB40C200EA21F8 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		A166ABB12441E05B00D56B34 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
 		A166ABB32441E05B00D56B34 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
-		A166ABBA2441E70100D56B34 /* font.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = font.mp3; sourceTree = "<group>"; };
+		A180B4C0244A0C8A006FEC21 /* font2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = font2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			children = (
 				A166ABB12441E05B00D56B34 /* coin.mp3 */,
 				A166ABB32441E05B00D56B34 /* hit.mp3 */,
-				A166ABBA2441E70100D56B34 /* font.mp3 */,
+				A180B4C0244A0C8A006FEC21 /* font2.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -152,8 +152,8 @@
 				A106081723C50B5F004E8A3A /* Main.storyboard in Resources */,
 				A166ABB62441E05B00D56B34 /* coin.mp3 in Resources */,
 				A106081923C50B62004E8A3A /* Assets.xcassets in Resources */,
-				A166ABBB2441E70100D56B34 /* font.mp3 in Resources */,
 				A106081C23C50B62004E8A3A /* LaunchScreen.storyboard in Resources */,
+				A180B4C1244A0C8A006FEC21 /* font2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

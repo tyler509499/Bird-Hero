@@ -130,7 +130,7 @@ class GameScene: SKScene {
             y: -playableRect.size.height / 2 + CGFloat(20))
         cameraNode.addChild(coinsLabel)
         
-        playBackgroundMusic(filename: "font.mp3")
+        playBackgroundMusic(filename: "font2.mp3")
         
     }
     
