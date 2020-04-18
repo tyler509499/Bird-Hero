@@ -120,7 +120,7 @@ class GameScene: SKScene {
             y: -playableRect.size.height / 2 + CGFloat(20))
         cameraNode.addChild(livesLabel)
 
-        coinsLabel.text = "Vaccine: x"
+        coinsLabel.text = "Battery: x"
         coinsLabel.fontColor = SKColor.black
         coinsLabel.horizontalAlignmentMode = .right
         coinsLabel.verticalAlignmentMode = .bottom
@@ -360,10 +360,10 @@ class GameScene: SKScene {
            backgroundMusicPlayer.stop()
        }
         //moveCamera()
-         coinsLabel.text = "Vaccine: \(score)"
+         coinsLabel.text = "Battery: \(score)"
          livesLabel.text = "Lives: \(lives)"
         
-//        highscoreLabel.removeFromParent
+
     }
     
     func backgroundNode() -> SKSpriteNode {
