@@ -55,7 +55,7 @@ class GameScene: SKScene {
         
         var covidTextures: [SKTexture] = []//массив с текстурами для птицы
              for i in 1...3 {
-                 covidTextures.append(SKTexture(imageNamed: "covid\(i)"))
+                 covidTextures.append(SKTexture(imageNamed: "alien\(i)"))
              }
              
         covidAnimation = SKAction.animate(with: covidTextures, timePerFrame: 0.2)
@@ -127,7 +127,7 @@ class GameScene: SKScene {
         coinsLabel.fontSize = 85
         coinsLabel.zPosition = 150
         coinsLabel.position = CGPoint(x: playableRect.size.width / 2 - CGFloat(20),
-            y: -playableRect.size.height / 2 + CGFloat(20))
+            y: -playableRect.size.height / 2 - CGFloat(20))
         cameraNode.addChild(coinsLabel)
         
         playBackgroundMusic(filename: "font2.mp3")
@@ -226,7 +226,7 @@ class GameScene: SKScene {
     }
     
     func spawnCovid() {//создаем птицу-врага
-        let covid = SKSpriteNode(imageNamed: "covid1")
+        let covid = SKSpriteNode(imageNamed: "alien1")
         covid.name = "covid1"
         //covid.xScale = covid.xScale * -1//переворачиваем птицу по оси Х
         covid.size = CGSize(width: 200, height: 165)
@@ -353,6 +353,12 @@ class GameScene: SKScene {
            print("Вы проиграли")
            let gameOverScene = GameOverScene(size: size, won: false)
            gameOverScene.highscore = score
+            
+            UserDefaults.standard.set(score, forKey: "Score")
+            if score > UserDefaults.standard.integer(forKey: "Highscore") {
+                UserDefaults.standard.set(score, forKey: "Highscore")
+            }
+            
            gameOverScene.scaleMode = scaleMode
            let reval = SKTransition.flipHorizontal(withDuration: 0.5)
            view?.presentScene(gameOverScene, transition: reval)

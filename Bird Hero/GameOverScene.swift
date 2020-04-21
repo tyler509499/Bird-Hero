@@ -34,7 +34,7 @@ class GameOverScene: SKScene {
                                       y: size.height / 2)
         addChild(background)
         
-        highscoreLabel.text = "Your Score: \(highscore)"
+        highscoreLabel.text = "Your Highscore: \(UserDefaults.standard.integer(forKey: "Highscore"))"
         highscoreLabel.fontColor = SKColor.black
         highscoreLabel.horizontalAlignmentMode = .right
         highscoreLabel.verticalAlignmentMode = .bottom
