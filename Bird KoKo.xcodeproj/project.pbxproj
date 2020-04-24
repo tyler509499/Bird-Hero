@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A106080823C50B5F004E8A3A /* Dr. KoKo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dr. KoKo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A106080823C50B5F004E8A3A /* Bird KoKo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bird KoKo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A106080B23C50B5F004E8A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A106081123C50B5F004E8A3A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A106081323C50B5F004E8A3A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		A106080923C50B5F004E8A3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A106080823C50B5F004E8A3A /* Dr. KoKo.app */,
+				A106080823C50B5F004E8A3A /* Bird KoKo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A106080723C50B5F004E8A3A /* Dr. KoKo */ = {
+		A106080723C50B5F004E8A3A /* Bird KoKo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "Dr. KoKo" */;
+			buildConfigurationList = A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "Bird KoKo" */;
 			buildPhases = (
 				A106080423C50B5F004E8A3A /* Sources */,
 				A106080523C50B5F004E8A3A /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "Dr. KoKo";
+			name = "Bird KoKo";
 			productName = "Bird Hero";
-			productReference = A106080823C50B5F004E8A3A /* Dr. KoKo.app */;
+			productReference = A106080823C50B5F004E8A3A /* Bird KoKo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A106080323C50B5F004E8A3A /* Build configuration list for PBXProject "Dr. KoKo" */;
+			buildConfigurationList = A106080323C50B5F004E8A3A /* Build configuration list for PBXProject "Bird KoKo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A106080723C50B5F004E8A3A /* Dr. KoKo */,
+				A106080723C50B5F004E8A3A /* Bird KoKo */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = MV639N62L8;
 				INFOPLIST_FILE = "Bird Hero/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -321,9 +321,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaGalkov.covidkoko;
-				PRODUCT_NAME = "Dr. KoKo";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaGalkov.birdKoKo;
+				PRODUCT_NAME = "Bird KoKo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = MV639N62L8;
 				INFOPLIST_FILE = "Bird Hero/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -342,9 +342,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaGalkov.covidkoko;
-				PRODUCT_NAME = "Dr. KoKo";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NikitaGalkov.birdKoKo;
+				PRODUCT_NAME = "Bird KoKo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A106080323C50B5F004E8A3A /* Build configuration list for PBXProject "Dr. KoKo" */ = {
+		A106080323C50B5F004E8A3A /* Build configuration list for PBXProject "Bird KoKo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A106081E23C50B62004E8A3A /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "Dr. KoKo" */ = {
+		A106082023C50B62004E8A3A /* Build configuration list for PBXNativeTarget "Bird KoKo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A106082123C50B62004E8A3A /* Debug */,

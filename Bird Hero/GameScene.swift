@@ -54,7 +54,7 @@ class GameScene: SKScene {
         birdAnimation = SKAction.animate(with: textures, timePerFrame: 0.1)
         
         var covidTextures: [SKTexture] = []//массив с текстурами для птицы
-             for i in 1...3 {
+             for i in 1...4 {
                  covidTextures.append(SKTexture(imageNamed: "alien\(i)"))
              }
              
@@ -98,7 +98,7 @@ class GameScene: SKScene {
             SKAction.sequence([SKAction.run({ [weak self] in
             self?.spawnCovid()
         }),
-                               SKAction.wait(forDuration: 0.65)])))
+                               SKAction.wait(forDuration: 0.88)])))
         
        run(SKAction.repeatForever(
             SKAction.sequence([SKAction.run({ [weak self] in
